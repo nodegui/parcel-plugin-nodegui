@@ -1,8 +1,8 @@
 {
-  "name": "parcel-plugin-nodegui-stylesheets",
+  "name": "parcel-plugin-nodegui",
   "version": "1.0.1",
-  "keywords": ["parcel", "parcel-bundler", "node-gui", "css"],
-  "description": "transform css into nodegui-compatible style modules",
+  "keywords": ["parcel", "parcel-bundler", "node-gui", "css", "png", "assets"],
+  "description": "use and bundle assets with your nodegui app",
   "main": "index.js",
   "files": [
     "index.js",
