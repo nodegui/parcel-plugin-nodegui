@@ -4,14 +4,36 @@
 ## General
 This plugin allows you to import actual assets, such as css and image files, into your NodeGUI app and utilize them in your app.
 
+You can see an example project that uses parcel and this plugin [here](https://github.com/illBeRoy/nodegui-parcel-example).
+
+> Disclaimer: this plugin is in its early stages. Bugs are probable. Feature requests, bug reports and contributions are most welcome!
+
 ## Features
 * Utilize CSS files in your code using `require` (much like web and React Native) 🎨
 * Import image assets and utilize them with QImage widgets using `require` 🖼
 
-## Installation
-Run the following command:
+## Getting Started
+### Prerequisites
+As this is a `parcel` plugin, your project has to use `parcel` for managing its bundle. Read about it [here](https://parceljs.org/).
+
+### Installation
+Run the following command inside your project to install this :
 ```bash
 npm install --save-dev parcel-plugin-nodegui
+```
+
+### Building for NodeGUI
+Make sure that you select the `node` target when bundling your projects for the NodeGUI platform (using the `build` and `watch` commands). Read about project targets [here](https://parceljs.org/cli.html#target).
+
+#### Example
+Building for node target:
+```bash
+npx parcel build --target node src/index.tsx
+```
+
+Watching for node target (auto bundle build upon file save):
+```bash
+npx parcel watch --target node src/index.tsx
 ```
 
 ## Plugins
@@ -86,3 +108,5 @@ And use them with the `Image` widget's `src` property:
 ```jsx
 <Image src={image} />
 ```
+
+
