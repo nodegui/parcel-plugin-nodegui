@@ -1,7 +1,14 @@
 {
   "name": "parcel-plugin-nodegui",
-  "version": "1.0.2",
-  "keywords": ["parcel", "parcel-bundler", "node-gui", "css", "png", "assets"],
+  "version": "1.0.3",
+  "keywords": [
+    "parcel",
+    "parcel-bundler",
+    "node-gui",
+    "css",
+    "png",
+    "assets"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/nodegui/parcel-plugin-nodegui"
