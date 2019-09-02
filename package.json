@@ -4,7 +4,7 @@
   "keywords": ["parcel", "parcel-bundler", "node-gui", "css", "png", "assets"],
   "repository": {
     "type": "git",
-    "url": "https://github.com/illBeRoy/parcel-plugin-nodegui"
+    "url": "https://github.com/nodegui/parcel-plugin-nodegui"
   },
   "description": "use and bundle assets with your nodegui app",
   "main": "index.js",
