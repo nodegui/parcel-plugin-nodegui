@@ -110,3 +110,13 @@ And use them with the `Image` widget's `src` property:
 ```
 
 
+## Maintainers ✨
+
+People maintaining this project.
+
+<!-- prettier-ignore -->
+<table>
+  <tr>
+<td align="center"><a href="https://www.linkedin.com/in/roysommer/"><img src="https://avatars2.githubusercontent.com/u/6681893?v=4" width="100px;" alt="Roy Sommer"/><br /><sub><b>Roy Sommer</b></sub></a></td>
+  </tr>
+</table>
